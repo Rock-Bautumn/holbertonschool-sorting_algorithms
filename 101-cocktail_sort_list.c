@@ -129,7 +129,7 @@ void cocktail_sort_list(listint_t **list)
 	if (size < 2)
 		return;
 
-	for (upper = size - 1; upper > size / 2; flip = !flip)
+	for (upper = size - 1; upper >= size / 2; flip = !flip)
 	{
 		if (!flip)
 		{
