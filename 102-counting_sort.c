@@ -105,7 +105,7 @@ void counting_sort(int *array, size_t size)
 
 
 	strict_print_array(count + 1, keys);
-	printf(", %d\n", count[keys] + 1);
+	printf(", %ld\n", size);
 	free(sorted);
 	free(count);
 }
